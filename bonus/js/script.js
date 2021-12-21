@@ -13,4 +13,4 @@ const firstName = prompt('Qual è il tuo nome?')
 const lastName = prompt('Qual è il tuo cognome')
 const favouriteColor = prompt('Qual è il tuo colore preferito?')
 
-document.writeln(firstName + lastName + favouriteColor +'21')
+document.writeln(`La tua password è ${firstName}${lastName}${favouriteColor}21`)
